@@ -1,0 +1,412 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 88px; 
+    position: fixed;
+    width: 100%;
+    align-items: center;
+}
+
+.header .logo img{
+    width: 8.5rem;
+}
+
+form{
+    position: relative;
+    display: flex;
+    padding: 10px 15px;
+    border: none;
+    background: #fff;
+    border-radius: 100px;
+    padding: 19px;
+    width: 25rem;
+}
+
+form input{
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+form input::placeholder{
+    color: black;
+    font-family: Inter;
+    font-size: 1rem;
+    opacity: .8;
+    font-weight: 500;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Inter' , sans-serif; 
+    font-size: 1rem;
+}
+
+.nav-btns{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.nav-btns .btn{
+    padding: 12.5px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.nav-btns .btn{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    font-family: poppins;
+}
+
+.nav-btns .signin{
+    border: 1px solid #cb00e3;
+}
+.nav-btns .signup{
+    background:   #cb00e3;
+}
+
+/* hero section */
+.hero-section{
+    align-items: center;
+    background-image: url('images/StockCake-Vibrant Concert Scene_1752690455.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 88px;
+    text-align: center;
+}
+
+.hero-section .section-content h1{
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: Roboto Serif, sans-serif;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.hero-section .section-content p{
+    color: #fff;
+    font-size: 24px;
+    font-family: Roboto serif, sans-serif;
+    margin-bottom:   32px;
+}
+
+.hero-section .hero-details .button{
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.hero-section .hero-details .button a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans sans-serif ;
+    background: #cb00e3;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* looking to buy tickets */
+.ticket{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.ticket h1{
+    font-size: 64px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 70px;
+    background-image: url(images/IMG_9474.JPG);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.ticket a{
+    color: black;
+    text-decoration: none;
+    border-radius: 100px;
+    border:1px solid #cb00e3;
+    padding: 20px 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* secure & easy ticketing */
+.secure{
+    background-color: rgb(15, 15, 82);
+    padding: 50px 88px;
+}
+
+.secure .first{
+    display: flex;
+    color: #fff;
+    gap: 30px;
+    margin-bottom: 88px;
+}
+
+.secure .first img{
+    width: 500px;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.secure .first .text h1{
+    font-size: 32px;
+    font-family: Roboto serif, sans-serif;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.secure .first .text p{
+    font-size: 24px;
+    font-family: Roboto serif, sans-serif;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+
+.secure .second{
+    display: flex;
+    color: #fff;
+    /* padding: 100px; */
+    gap: 30px;
+}
+
+.secure .second img{
+    width: 500px;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.secure .second .text h1{
+    font-size: 32px;
+    font-family: Roboto serif, sans-serif;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.secure .second .text p{
+    font-size: 24px;
+    font-family: Roboto serif, sans-serif;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+
+
+.sell{
+    background-image: url(images/IMG_9474.JPG);
+    height: 90vh;
+}
+
+.sell .text{
+    height: 100%;
+    width: 50%;
+    background: #e315f9a3;
+    color: #fff;
+}
+
+.sell .text h1{
+    font-size: 32px;
+    font-family: Roboto serif, sans-serif;
+    margin-bottom: 15px;
+    font-weight: 500;
+    padding-top: 90px;
+    padding-left: 90px;
+}
+
+.sell .text p{
+    font-size: 24px;
+    font-family: Roboto serif, sans-serif;
+    text-align: justify;
+    font-weight: 400;
+    padding: 20px 70px;
+}
+
+/* create account */
+.create{
+    background: #cb00e3;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+}
+
+.create h1{
+    padding-top: 100px;
+    font-family: Roboto Serif, sans-serif;
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+.create a{
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans sans-serif ;
+    background: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 60px;
+    border-radius: 100px;
+}
+
+/* footer */
+/* footer{
+    padding-top: 50px;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+}
+
+.list{
+    padding: 0%;
+}
+
+.container .footer-content .list li{
+    width: auto;
+    /* text-align: center; */
+    /* list-style-type: none;
+    padding: 0%;
+    position: relative;
+    text-decoration: none;
+}
+.container .footer-content img{
+    width: 8.5rem;
+    margin-left: 50px;
+} */ */
+
+/* Footer Styles */
+footer {
+    background: #181818;
+    color: #fff;
+    padding: 40px 0 0 0;
+    font-family: 'Inter', sans-serif;
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.footer-content {
+    flex: 1 1 180px;
+    margin: 0 16px 24px 0;
+}
+
+.footer-content img {
+    width: 120px;
+    margin-bottom: 16px;
+}
+
+.footer-content h3 {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #010101;
+}
+
+.footer-content .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-content .list li {
+    margin-bottom: 8px;
+}
+
+.footer-content .list a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-content .list a:hover {
+    color: #050401;
+}
+
+.foot {
+    flex: 1 1 180px;
+    margin: 0 16px 24px 0;
+}
+
+.foot a {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #171614;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.foot ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.foot ul li img {
+    width: 28px;
+    height: 28px;
+    filter: brightness(0) invert(1);
+    transition: filter 0.2s;
+}
+
+.foot ul li img:hover {
+    filter: brightness(0) invert(0.7) sepia(1) hue-rotate(20deg) saturate(5);
+}
+
+.bottom-bar {
+    background: #111;
+    color: #bbb;
+    text-align: center;
+    padding: 16px 0;
+    font-size: 0.95rem;
+    margin-top: 24px;
+    border-top: 1px solid #222;
+}
+
+.bottom-bar p {
+    margin: 4px 0;
+}
+
+.bottom-bar div {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
