@@ -348,13 +348,13 @@ footer .container {
 }
 
 .footer-content .list a {
-    color: #fff;
+    color: #050401;
     text-decoration: none;
     transition: color 0.2s;
 }
 
 .footer-content .list a:hover {
-    color: #050401;
+    color: #372f18c8;
 }
 
 .foot {
